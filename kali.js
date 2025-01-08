@@ -943,7 +943,7 @@ window.playerGear={
                 player.addEffect('petalStormPassive')
             },
             desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+300,000 capacity<br>x2 capacity<br>x2 loot luck<br>x1.8 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x1.5 white bomb pollen<br>x1.25 bee energy<br>+Passive: Petal Storm',
-            cost:['15000000000 honey','15 starJelly','50 glitter','75 glue','1 spiritPetal'],
+            cost:['15000000000 honey'],
         }
     },
     
@@ -1475,7 +1475,7 @@ window.playerGear={
                 stats.criticalChance+=0.08
             },
             desc:'A piece of armor forged by the leader of red bees!<br><br>+150,000 capacity<br>x1.25 red pollen<br>x1.25 convert rate<br>+15% instant red conversion<br>+8% critical chance<br>+2 red bee attack',
-            cost:['20000000 honey','5 redExtract','100 strawberry','1 glue','5 stinger'],
+            cost:['20000000 honey'],
         },
 
         crimsonGuard:{
@@ -1500,7 +1500,7 @@ window.playerGear={
                 player.addEffect('focusPulserPassive')
             },
             desc:'A guard bestowed with the heroic power of Crimson Bee - Defender of the red bees.<br><br>+300,000 capacity<br>x1.35 red pollen<br>x1.4 convert rate<br>+20% instant red conversion<br>x1.5 red bomb pollen<br>+3 red bee attack<br>+2 white bee attack<br>+10% critical chance<br>+Passive: Focus Pulser',
-            cost:['200000000 honey','100 redExtract','15 stinger','50 oil','25 glitter'],
+            cost:['200000000 honey'],
         },
     },
     
