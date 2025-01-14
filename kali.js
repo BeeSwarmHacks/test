@@ -932,18 +932,18 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=300000
-                stats.capacityMultiplier*=2
-                stats.lootLuck*=2
-                stats.convertRate*=1.8
-                stats.honeyFromTokens*=1.5
-                stats.whiteBeeAttack+=2
-                stats.whiteBombPollen*=1.5
-                stats.beeEnergy*=1.25
+                stats.capacity+=9999999
+                stats.capacityMultiplier*=8
+                stats.lootLuck*=999
+                stats.convertRate*=100
+                stats.honeyFromTokens*=9999
+                stats.whiteBeeAttack+=9999
+                stats.whiteBombPollen*=9999
+                stats.beeEnergy*=98989
                 player.addEffect('petalStormPassive')
             },
             desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+300,000 capacity<br>x2 capacity<br>x2 loot luck<br>x1.8 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x1.5 white bomb pollen<br>x1.25 bee energy<br>+Passive: Petal Storm',
-            cost:['15000000000 honey'],
+            cost:['20 honey'],
         }
     },
     
